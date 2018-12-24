@@ -11,7 +11,6 @@ plugins=(
   web-search
   vscode
   alias-tips
-  zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
