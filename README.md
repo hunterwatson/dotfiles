@@ -18,25 +18,34 @@ plugins=(
 )
 ```
 #### [git](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git) - adds a bunch of helpful aliases for git-related things.
+
 #### [osx](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#osx) - I mostly just use it to control spotify from my command line.
+
 If you want to query songs, artists, and playlists (rather than just access media controls) you'll have to [setup an application](https://developer.spotify.com/my-applications/#!/applications/create) and input your `CLIENT_ID` and `CLIENT_SECRET` into `${USER_CONFIG_FILE}`
 ![Spotify Plugin Screen Capture](./screenshots/zsh_spotify.png)
+
 #### [web-search](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/web-search) - Let's you run a google search query from your command line. I use it lookup errors I generate.
-#### [vscode](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vscode#vs-code) - some helpful aliases regarding Visual Studio Code
+#### [vscode](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vscode#vs-code) - some helpful aliases regarding Visual Studio Code.
+
 You have to install `code` command in PATH for the aliases to work: 
 * In Visual Studio Code, access the Command Palette (__Command__+__Shift__+__P__)
 * Search for "Shell" in the prompt
 * Select "Shell Command: Install `code` command in PATH"
-#### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting#zsh-syntax-highlighting-) - helps in reviewing commands and building confidence
+
+#### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting#zsh-syntax-highlighting-) - helps in reviewing commands and building confidence.
+
 This plugin's repo must be cloned into your oh my zsh plugins directory:
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+
 #### [alias-tips](https://github.com/djui/alias-tips#alias-tips) adds an uninstrusive reminder whenever you execute a command that has an assigned alias.
+
 This plugin's repo must be cloned into your oh my zsh plugins directory:
 ```
 git clone https://github.com/djui/alias-tips.git ${ZSH_CUSTOM1:-$ZSH/custom}/plugins/alias-tips
 ```
+
 ![Alias-tips Plugin Screen Capture](./screenshots/zsh_alias_tips.png)
 
 ## Mac OS
