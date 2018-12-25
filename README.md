@@ -1,4 +1,4 @@
-Before using this repo, I suggest making a fork of it so you can customize yourself. I also haven't tested these configs on any machine other than my own (MacBook Pro 2018, macOS Mojave 10.14.2 _as of December 24, 2018_).
+Before using this repo, I suggest making a fork of it so you can customize everything yourself. I also haven't tested these configs on any machine other than my own (MacBook Pro 2018, macOS Mojave 10.14.2 _as of December 24, 2018_).
 
 # Zsh config
 I'm using oh-my-zsh with my own take on the powerelevel9k theme. Installation guide coming soon.
