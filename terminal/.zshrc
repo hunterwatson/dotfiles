@@ -2,7 +2,6 @@ export PATH=$HOME/go/bin:$PATH
 
 # Theme
 export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Plugins
@@ -15,13 +14,16 @@ plugins=(
   alias-tips
 )
 
+source $ZSH/oh-my-zsh.sh
+
 # Prompt Configuration
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=' '
 POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=' '
 POWERLEVEL9K_WHITESPACE_BETWEEN_LEFT_SEGMENTS=''
 
 POWERLEVEL9K_DISABLE_RPROMPT=true
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=5
 
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
